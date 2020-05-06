@@ -59,6 +59,6 @@ $checkingAccounts['526-02-9692'] = deposit($checkingAccounts['526-02-9692'], 100
 
 
 foreach($checkingAccounts as $SSN => $account){
-    showMsg("$SSN from ".$account['holder'].' have $'.$account['amount']);
+    showMsg("$SSN from {$account['holder']} have \${$account['amount']}");
 }
 
