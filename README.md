@@ -27,5 +27,11 @@ php fooname.php
 
 where fooname, is the archive you want to see working on terminal.
 
+To see the simple web interfaceopen de terminal on SimpleBank folder and run the code
+```bash
+php -S localhost:8081
+``` 
+Now go to browser and look at the list of accounts provided by php, anda maded using php and html at the same time
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
