@@ -26,33 +26,6 @@ $checkingAccounts["547-52-6559"] = [
     'amount' => 900
 ];
 
-//Function to withdraw a amount of money
-function withdraw(array $account, float $amount) : array
-{
-    if($amount <= 0) {
-        showMsg("A withdraw need to be more than $0");
-    }elseif($amount > $account['amount']){
-        showMsg("You can't do this operation, you don´t have enough money to withdraw");
-    } else{
-        $account['amount'] -= $amount;
-        showMsg("Your transaction was a success, your new amount on this account is $".$account['amount']);
-    }
-
-    return $account;
-}
-
-//Function to deposit a amount of money
-function deposit(array $account, float $amount) : array
-{
-    if($amount <= 0){
-        showMsg("A deposit need to be more than $0");
-    }else{
-        $account['amount'] += $amount;
-        showMsg("Your transaction was a success, your new amount on this account is $".$account['amount']);
-    }
-
-    return $account;
-}
 
 $checkingAccounts['460-61-7961'] = withdraw($checkingAccounts['460-61-7961'], 100);
 $checkingAccounts['526-02-9692'] = deposit($checkingAccounts['526-02-9692'], 1000);
