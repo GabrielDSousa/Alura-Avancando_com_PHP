@@ -19,6 +19,6 @@ showMsg("Deposit correct");
 $checkingAccounts['526-02-9692'] = deposit($checkingAccounts['526-02-9692'], 1000);
 showMsg("Deposit negative number");
 $checkingAccounts['526-02-9692'] = deposit($checkingAccounts['526-02-9692'], -1000);
-showMsg("------------All Accounts---------------");
+showMsg("------------Deleting a account---------------");
 showAllAccounts();
 

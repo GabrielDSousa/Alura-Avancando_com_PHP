@@ -10,6 +10,7 @@ function showMsg($msg){
 function showAllAccounts(){
     $checkingAccounts = allAccounts();
     foreach($checkingAccounts as $SSN => $account){
-        showMsg("$SSN from {$account['holder']} have \${$account['amount']}");
+        ['holder' => $holder, 'amount' => $amount] = $account;
+        showMsg("$SSN from  $holder have \$$amount");
     }
 }
