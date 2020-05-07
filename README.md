@@ -27,7 +27,7 @@ php fooname.php
 
 where fooname, is the archive you want to see working on terminal.
 
-To see the simple web interfaceopen de terminal on SimpleBank folder and run the code
+To see the simple web interface open the terminal on SimpleBank folder and run the code
 ```bash
 php -S localhost:8081
 ``` 
