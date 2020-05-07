@@ -31,7 +31,7 @@ To see the simple web interfaceopen de terminal on SimpleBank folder and run the
 ```bash
 php -S localhost:8081
 ``` 
-Now go to browser and look at the list of accounts provided by php, anda maded using php and html at the same time
+Now go to browser and look at the list of accounts provided by php, and made using php and html at the same time
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
