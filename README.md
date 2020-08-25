@@ -34,5 +34,5 @@ php -S localhost:8081
 Now go to browser and look at the list of accounts provided by php, and made using php and html at the same time
 
 ## License
-[MIT](https://github.com/GabrielDSousa/Avançando_com_PHP/blob/master/LICENSE.md)
+[MIT](https://github.com/GabrielDSousa/Avançando_com_PHP/master/LICENSE.md)
 
