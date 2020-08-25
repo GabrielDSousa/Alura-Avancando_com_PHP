@@ -28,4 +28,5 @@ php fooname.php
 where fooname, is the archive you want to see working on terminal.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/GabrielDSousa/Avançando_com_PHP/blob/master/LICENSE.md)
+
